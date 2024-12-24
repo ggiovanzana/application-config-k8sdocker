@@ -1,10 +1,4 @@
 spring:
-  application:
-    name: company-service
-  config:
-    import: optional:configserver:http://localhost:8888
-  profiles:
-    active: default
   datasource:
     url: jdbc:postgresql://localhost:5432/k8app-company
     username: johnuser
